@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 0;
+    left: 0;
+}
+.top1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    background-color: rgb(6, 6, 39);
+}
+.top1 div{
+    margin: 5px;
+}
+.top2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    background-color: white;
+    
+}
+.top2 div{
+    margin-inline: 10px;
+    
+}
+.top2 img{
+    width: 160px;
+    padding: 30px;
+}
+
+ul li{
+    margin: 0;
+    padding: 10px;  
+    
+}
+#top-list{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type:none;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    
+}
+.top2 .free{
+    border-radius: 30px;
+    padding: 8px 17px;
+    margin: 0;
+    color: white;
+    background-color: #0061FF;
+}
+.middle1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 130px;
+    background: url("https://img.shoplineapp.com/media/image_clips/5f069a12dc4d9a00335656c2/original.png?1594268177") 100%
+}
+.middle1 .left{
+    width: 45%;
+    padding: 30px;
+    color: white;
+    line-height: calc(6px + 2ex + 6px);
+}
+.email{
+    width: 350px;
+    background: unset;
+    border: 1px solid #fff;
+    border-width: 0 0 1px;
+    font-size: 100%;
+}
+.middle1 .free{
+    width: 125px;
+    height: 45px;
+    margin: 0 0 0 15px;
+    border: 0;
+    border-radius: 30px;
+    padding: 8px 17px;
+    color: white;
+    font-size: 106.25%;
+    background-color: #0061FF;
+}      
+.middle2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: calc(6px + 2ex + 6px);           
+}
+.middle2 h2{
+    font-size: 218.75%;
+    line-height: calc(6px + 2ex + 6px);
+}
+.middle2 .f1{
+    width: 70%;
+    text-align: center;
+}
+.middle2 .f2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding: 30px;
+    border-bottom: 1px solid #E0E5E9;
+}
+.middle2 .list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.middle2 .i{
+    width: 50%;
+}
+a{
+    color: #0061FF;
+    text-decoration: none;
+}
+.middle2 img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    width: 50%;
+}
+.pic{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.middle3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F4F5F7;
+}
+.middle3 h1{
+    width: 100%;
+    text-align: center;
+}
+.middle3 .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.middle3 .i{
+    width: 26%;
+    padding: 20px;
+    justify-content: center;
+    line-height: calc(6px + 2ex + 6px);
+}
+.middle3 h3{
+    text-align: center;
+}
+.middle3 .i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+}
+.imgblock{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgblock > img{
+    width: 60%;
+    height: auto;
+}
+.middle4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.middle4 h1{
+    width: 100%;
+    text-align: center;
+}
+.middle4 span{
+    color: #0061FF;
+}
+.middle4 div{
+    display: flex;
+}
+.middle4 .pic{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.left{
+    width: 30%;
+    height: auto;
+    padding: 50px;
+    color: #324255;
+    line-height: calc(6px + 2ex + 6px);
+    flex-direction: column;
+    font-size: 106.25%;
+}
+.right{
+    width: 50%;
+    padding: 50px;
+}
+.foot1{
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+    background: #172B4D;
+}
+.foot1 h1{
+    font-size: 250%;
+}
+.foot1 span{
+    background-color: #0061FF;
+}
+.foot1 .free{
+    width: 60%;
+    border-radius: 30px;
+    padding: 8px 17px;
+    margin: 0;
+    color: white;
+    background-color: #0061FF;
+    text-align: center;
+}
+.foot1 .pic{
+    width: 50%;
+    display: flex;
+    height: 100%;
+}
+.foot1 .pic img{
+    right: -150px;
+    top: -100px;
+    width: 615px;
+}
+.foot2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    background: hsl(219, 70%, 11%);
+    color: #748094;
+    line-height: 1.7;
+}
+.foot2 .t{
+    color: white;
+    margin-bottom: 30px;
+}
