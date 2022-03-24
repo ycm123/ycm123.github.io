@@ -67,6 +67,13 @@ ul li{
     margin-top: 130px;
     background: url("https://img.shoplineapp.com/media/image_clips/5f069a12dc4d9a00335656c2/original.png?1594268177") 100%
 }
+.middle1 span{
+    color: #0061FF;
+}
+.middle1 p{
+    font-weight: bold;
+    font-size: 20px;
+}
 .middle1 .left{
     width: 45%;
     padding: 30px;
@@ -98,7 +105,7 @@ ul li{
     justify-content: center;
     line-height: calc(6px + 2ex + 6px);           
 }
-.middle2 h2{
+.middle2 h1, h2{
     font-size: 218.75%;
     line-height: calc(6px + 2ex + 6px);
 }
@@ -147,6 +154,10 @@ a{
 .middle3 h1{
     width: 100%;
     text-align: center;
+}
+.middle3 p{
+    font-weight: bold;
+    font-size: 20px;
 }
 .middle3 .list{
     display: flex;
@@ -215,6 +226,9 @@ a{
     width: 50%;
     padding: 50px;
 }
+.foot{
+    background-color: hsl(219, 70%, 11%);
+}
 .foot1{
     min-height: 400px;
     width: 100%;
@@ -251,8 +265,10 @@ a{
     width: 615px;
 }
 .foot2 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 40px;
+    border-block: 1px solid #E0E5E9;
     display: flex;
     justify-content: space-evenly;
     background: hsl(219, 70%, 11%);
@@ -262,4 +278,11 @@ a{
 .foot2 .t{
     color: white;
     margin-bottom: 30px;
+}
+.foot3{
+    padding: 50px;
+    color: white;
+}
+.foot3 div{
+    display: inline;
 }
