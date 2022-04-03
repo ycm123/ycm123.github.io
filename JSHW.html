@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="picture">
+            <img src="https://raw.githubusercontent.com/ycm123/FileStorage/main/test.jpg" alt="">
+        </div>
+        <div class="intro">
+            <div id="name">姓名:</div>
+            <div id="email">信箱:</div>
+            <div id="school">學校:</div>
+            <div id="interest">興趣:</div>
+        </div>
+        
+    <script>
+        let name = document.getElementById("name");
+        let email = document.getElementById("email");
+        let school = document.getElementById("school");
+        let interest = document.getElementById("interest");
+
+        name.innerText += "余仲恩";
+        email.innerText += "ycm89846@gmail.com";
+        school.innerText += "中華大學";
+        interest.innerText += "玩電腦";
+        document.write("<br>");
+        const imageArray = [
+            "https://memeprod.ap-south-1.linodeobjects.com/user-gif/14052e2a29f0f2e213d76cd81411c9c9.gif",
+            "https://static.popdaily.com.tw/wp-content/uploads/2018/06/3359kn3zsuyoo0wcwocwwk0kgpa5fe3.gif",
+            "https://imgur.dcard.tw/wvzjHPT.gif",
+        ];
+        imageArray.forEach((url, index) => {
+            document.write(`<img src=${url}>`);
+        });
+    </script>
+    </section>
+</body>
+</html>
