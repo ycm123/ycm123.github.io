@@ -2222,7 +2222,32 @@
                     return;
                 }
                 
-                alert("以表格呈現英雄人物資料！");
+                table = document.createElement('table');
+                table.setAttribute('class', 'table table-bordered table-striped table-dark w-75 mx-auto');
+                thead = document.createElement('thead');
+                tbody = document.createElement('tbody');
+                    
+                let theadTR = document.createElement('tr');
+                for(let title in heroArray[0]){
+                    let th = document.createElement('th');
+                    th.innerHTML = title;
+                    theadTR.append(th);
+                }
+                thead.append(theadTR);
+                table.append(thead);
+                container.append(table);
+                
+                heroArray.forEach(hero =>{
+                    let tbodyTR = document.createElement('tr');
+                    for(let i in hero){
+                        let td = document.createElement('td');
+                        td.innerHTML = `${hero[i]}`;
+                        tbodyTR.append(td);
+                    }
+                    tbody.append(tbodyTR);
+                    table.append(tbody);
+                    container.append(table);
+                })
             });
         }
 
